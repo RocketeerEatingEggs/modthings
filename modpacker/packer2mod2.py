@@ -21,7 +21,16 @@ ModChannelsTable = [
     b"1CHN",b"2CHN",b"3CHN",b"M.K.",b"5CHN",b"6CHN",b"7CHN",b"8CHN",
     b"9CHN",b"10CH",b"11CH",b"12CH",b"13CH",b"14CH",b"15CH",b"16CH",
     b"17CH",b"18CH",b"19CH",b"20CH",b"21CH",b"22CH",b"23CH",b"24CH",
-    b"25CH",b"26CH",b"27CH",b"28CH",b"29CH",b"30CH",b"31CH",b"32CH"
+    b"25CH",b"26CH",b"27CH",b"28CH",b"29CH",b"30CH",b"31CH",b"32CH",
+    b"33CH",b"34CH",b"35CH",b"36CH",b"37CH",b"38CH",b"39CH",b"40CH",
+    b"41CH",b"42CH",b"43CH",b"44CH",b"45CH",b"46CH",b"47CH",b"48CH",
+    b"49CH",b"50CH",b"51CH",b"52CH",b"53CH",b"54CH",b"55CH",b"56CH",
+    b"57CH",b"58CH",b"59CH",b"60CH",b"61CH",b"62CH",b"63CH",b"64CH",
+    b"65CH",b"66CH",b"67CH",b"68CH",b"69CH",b"70CH",b"71CH",b"72CH",
+    b"73CH",b"74CH",b"75CH",b"76CH",b"77CH",b"78CH",b"79CH",b"80CH",
+    b"81CH",b"82CH",b"83CH",b"84CH",b"85CH",b"86CH",b"87CH",b"88CH",
+    b"89CH",b"90CH",b"91CH",b"92CH",b"93CH",b"94CH",b"95CH",b"96CH",
+    b"97CH",b"98CH",b"99CH"
     ]
 
 def periodToNote(lower, upper):

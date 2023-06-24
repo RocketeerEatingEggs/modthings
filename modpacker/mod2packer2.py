@@ -18,8 +18,19 @@ ModPeriodTable = [
     ]
 
 ModChannelsTable = [
-    "1CHN","2CHN","3CHN","M.K.","5CHN","6CHN","7CHN","8CHN","9CHN","10CH","11CH","12CH","13CH","14CH","15CH","16CH",
-    "17CH","18CH","19CH","20CH","21CH","22CH","23CH","24CH","25CH","26CH","27CH","28CH","29CH","30CH","31CH","32CH"
+    "1CHN","2CHN","3CHN","M.K.","5CHN","6CHN","7CHN","8CHN",
+    "9CHN","10CH","11CH","12CH","13CH","14CH","15CH","16CH",
+    "17CH","18CH","19CH","20CH","21CH","22CH","23CH","24CH",
+    "25CH","26CH","27CH","28CH","29CH","30CH","31CH","32CH",
+    "33CH","34CH","35CH","36CH","37CH","38CH","39CH","40CH",
+    "41CH","42CH","43CH","44CH","45CH","46CH","47CH","48CH",
+    "49CH","50CH","51CH","52CH","53CH","54CH","55CH","56CH",
+    "57CH","58CH","59CH","60CH","61CH","62CH","63CH","64CH",
+    "65CH","66CH","67CH","68CH","69CH","70CH","71CH","72CH",
+    "73CH","74CH","75CH","76CH","77CH","78CH","79CH","80CH",
+    "81CH","82CH","83CH","84CH","85CH","86CH","87CH","88CH",
+    "89CH","90CH","91CH","92CH","93CH","94CH","95CH","96CH",
+    "97CH","98CH","99CH"
     ]
 
 def compareMagic(magic):
