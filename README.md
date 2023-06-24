@@ -8,3 +8,5 @@ This piece of code converts files from the Digital Sound Studio format to the MO
 
 ## modpacker
 The packers pack MOD files by using only three bytes per pattern event rather than the regular four. The unpackers convert those files back into regular MODs.
+
+Everything here is licensed under the MIT license (see [LICENSE])
