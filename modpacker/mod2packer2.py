@@ -43,6 +43,7 @@ with open(sys.argv[2], "wb+") as PTMfile:
         numChannels = compareMagic(str(MODfile.read(4), encoding="utf-8"))
         if numChannels != 0:
             PTMfile.seek(0)
+            MODfile.seek(0)
             PTMfile.write(b"LMF1")
             PTMfile.write(MODfile.read(20))
             for i in range(31):
