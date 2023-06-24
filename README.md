@@ -1,5 +1,5 @@
 # modthings
-A bunch of things related to tracker module formats.
+A bunch of things related to tracker module / tracker music formats.
 
 This repository contains only two sets of files:
 
