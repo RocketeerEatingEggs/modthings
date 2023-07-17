@@ -1,11 +1,9 @@
 # modpacker
 These packers / depackers I wrote are for your ordinary MOD files. S3M support not available, but it ~~shouldn't~~ should take a lot of effort (and possibly a new LMF2 format just to support it)
 
-It's been a while since I've touched these, so excuse me for my poor documentation.
-
 The magic is "LMFx", where x is a number between 0 and 1. The only difference between the (older) LMF0 format and the (newer) LMF1 format is that there are no sample names.
 
-The files start, of course, with the already described magic. Read this if you want to add support for this file format in some way (if I'm remembering correctly all values are big-endian):
+The files start, of course, with the already described magic. Read this if you want to add support for this file format in some way (all values are big-endian here):
 
 | offset | length | description |
 | ------ | ------ | ----------- |
@@ -20,7 +18,7 @@ The files start, of course, with the already described magic. Read this if you w
 | 30 (30) | 2 | sample **repeat** length |
 | ------ | ------ | ----------- |
 | ??? | 1 | song length in orders |
-| ??? | 1 | restart position (Fast Tracker) or tempo (Soundtracker / Noisetracker) |
+| ??? | 1 | restart position |
 | ??? | 128 | order info |
 | ??? | 1 | number of channels |
 | ------ | ------ | ----------- |
