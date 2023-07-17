@@ -10,12 +10,12 @@ The files start, of course, with the already described magic. Read this if you w
 | 0 | 4 | "LMFx" |
 | 4 | 20 | song name |
 | ------ | ------ | ----------- |
-| 24 | 22 | sample finetune |
-| 24 (24) | 2 | sample length (this structure is repeated 31 times) |
-| 26 (26) | 1 | sample finetune |
-| 27 (27) | 1 | sample default volume |
-| 28 (28) | 2 | sample **repeat** start |
-| 30 (30) | 2 | sample **repeat** length |
+| 24 | 22 | sample name |
+| 24 | 2 | sample length (this structure is repeated 31 times) |
+| 26 | 1 | sample finetune |
+| 27 | 1 | sample default volume |
+| 28 | 2 | sample **repeat** start |
+| 30 | 2 | sample **repeat** length |
 | ------ | ------ | ----------- |
 | ??? | 1 | song length in orders |
 | ??? | 1 | restart position |
