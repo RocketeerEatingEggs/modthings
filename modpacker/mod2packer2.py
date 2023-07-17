@@ -34,7 +34,7 @@ ModChannelsTable = [
     ]
 
 def compareMagic(magic):
-    for i in range(32):
+    for i in range(99):
         if magic == ModChannelsTable[i]:
             return i + 1
     return 0
