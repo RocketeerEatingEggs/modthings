@@ -26,3 +26,5 @@ The files start, of course, with the already described magic. Read this if you w
 | ??? | 5 bits | instrument |
 | ??? | 4 bits | fx type; all fx are the same as plain ol' MOD |
 | ??? | 8 bits | fx param |
+
+Everything after the end of the pattern data is signed 8-bit samples, like in the MOD format.
